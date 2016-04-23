@@ -9,6 +9,11 @@ html, body {
 header {
 	margin-bottom:5%;
 }
+.container {
+	& > .row:first-child {
+		margin-top: 0%;
+	}
+}
 .row {
 	margin: 5% 0%;
 }
@@ -21,6 +26,18 @@ header {
 }
 .clipboard {
 	color: #1BC1A1;
+}
+.github> *	{
+	display: inline-block;
+}
+.gh-count {
+	display: none;
+}
+.gray {
+	color: #675757;
+}
+code {
+	display: block;
 }
 
 .red{
