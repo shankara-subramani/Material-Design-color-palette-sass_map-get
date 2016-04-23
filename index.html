@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Material Design Sass Map</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="color-palette.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="clipboard.js-master/dist/clipboard.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h3>Material Design palette using <a class="sass" href="http://sass-lang.com/documentation/Sass/Script/Functions.html#map-functions">SASS Map</a> and <a class="clipboard" href="https://clipboardjs.com/">Clipboard.js</a></h3>
+            <h6>by <a href="http://shankar.tech">Shankar</a></h6>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-3 red">
+                <div class="btn" data-clipboard-text="color($red, 400)">Red 400</div>
+                <div class="btn" data-clipboard-text="color($red, 50)">Red 50</div>
+                <div class="btn" data-clipboard-text="color($red, 100)">Red 100</div>
+                <div class="btn" data-clipboard-text="color($red, 200)">Red 200</div>
+                <div class="btn" data-clipboard-text="color($red, 300)">Red 300</div>
+                <div class="btn" data-clipboard-text="color($red, 400)">Red 400</div>
+                <div class="btn" data-clipboard-text="color($red, 500)">Red 500</div>
+                <div class="btn" data-clipboard-text="color($red, 600)">Red 600</div>
+                <div class="btn" data-clipboard-text="color($red, 700)">Red 700</div>
+                <div class="btn" data-clipboard-text="color($red, 800)">Red 800</div>
+                <div class="btn" data-clipboard-text="color($red, 900)">Red 900</div>
+                <div class="btn" data-clipboard-text="color($red, a100)">a100</div>
+                <div class="btn" data-clipboard-text="color($red, a200)">a200</div>
+                <div class="btn" data-clipboard-text="color($red, a400)">a400</div>
+                <div class="btn" data-clipboard-text="color($red, a700)">a700</div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3 pink">
+                <div class="btn" data-clipboard-text="color($pink, 400)">Pink 400</div>
+                <div class="btn" data-clipboard-text="color($pink, 50)">Pink 50</div>
+                <div class="btn" data-clipboard-text="color($pink, 100)">Pink 100</div>
+                <div class="btn" data-clipboard-text="color($pink, 200)">Pink 200</div>
+                <div class="btn" data-clipboard-text="color($pink, 300)">Pink 300</div>
+                <div class="btn" data-clipboard-text="color($pink, 400)">Pink 400</div>
+                <div class="btn" data-clipboard-text="color($pink, 500)">Pink 500</div>
+                <div class="btn" data-clipboard-text="color($pink, 600)">Pink 600</div>
+                <div class="btn" data-clipboard-text="color($pink, 700)">Pink 700</div>
+                <div class="btn" data-clipboard-text="color($pink, 800)">Pink 800</div>
+                <div class="btn" data-clipboard-text="color($pink, 900)">Pink 900</div>
+                <div class="btn" data-clipboard-text="color($pink, a100)">a100</div>
+                <div class="btn" data-clipboard-text="color($pink, a200)">a200</div>
+                <div class="btn" data-clipboard-text="color($pink, a400)">a400</div>
+                <div class="btn" data-clipboard-text="color($pink, a700)">a700</div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3 purple">
+                <div class="btn" data-clipboard-text="color($purple, 400)">Purple 400</div>
+                <div class="btn" data-clipboard-text="color($purple, 50)">Purple 50</div>
+                <div class="btn" data-clipboard-text="color($purple, 100)">Purple 100</div>
+                <div class="btn" data-clipboard-text="color($purple, 200)">Purple 200</div>
+                <div class="btn" data-clipboard-text="color($purple, 300)">Purple 300</div>
+                <div class="btn" data-clipboard-text="color($purple, 400)">Purple 400</div>
+                <div class="btn" data-clipboard-text="color($purple, 500)">Purple 500</div>
+                <div class="btn" data-clipboard-text="color($purple, 600)">Purple 600</div>
+                <div class="btn" data-clipboard-text="color($purple, 700)">Purple 700</div>
+                <div class="btn" data-clipboard-text="color($purple, 800)">Purple 800</div>
+                <div class="btn" data-clipboard-text="color($purple, 900)">Purple 900</div>
+                <div class="btn" data-clipboard-text="color($purple, a100)">a100</div>
+                <div class="btn" data-clipboard-text="color($purple, a200)">a200</div>
+                <div class="btn" data-clipboard-text="color($purple, a400)">a400</div>
+                <div class="btn" data-clipboard-text="color($purple, a700)">a700</div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3 deep-purple">
+                <div class="btn" data-clipboard-text="color($deep-purple, 400)">Deep-Purple 400</div>
+                <div class="btn" data-clipboard-text="color($deep-purple, 50)">Deep-Purple 50</div>
+                <div class="btn" data-clipboard-text="color($deep-purple, 100)">Deep-Purple 100</div>
+                <div class="btn" data-clipboard-text="color($deep-purple, 200)">Deep-Purple 200</div>
+                <div class="btn" data-clipboard-text="color($deep-purple, 300)">Deep-Purple 300</div>
+                <div class="btn" data-clipboard-text="color($deep-purple, 400)">Deep-Purple 400</div>
+                <div class="btn" data-clipboard-text="color($deep-purple, 500)">Deep-Purple 500</div>
+                <div class="btn" data-clipboard-text="color($deep-purple, 600)">Deep-Purple 600</div>
+                <div class="btn" data-clipboard-text="color($deep-purple, 700)">Deep-Purple 700</div>
+                <div class="btn" data-clipboard-text="color($deep-purple, 800)">Deep-Purple 800</div>
+                <div class="btn" data-clipboard-text="color($deep-purple, 900)">Deep-Purple 900</div>
+                <div class="btn" data-clipboard-text="color($deep-purple, a100)">a100</div>
+                <div class="btn" data-clipboard-text="color($deep-purple, a200)">a200</div>
+                <div class="btn" data-clipboard-text="color($deep-purple, a400)">a400</div>
+                <div class="btn" data-clipboard-text="color($deep-purple, a700)">a700</div>
+            </div>
+        </div>
+        <!-- row2	 -->
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-3 indigo">
+                <div class="btn" data-clipboard-text="color($indigo, 400)">Indigo 400</div>
+                <div class="btn" data-clipboard-text="color($indigo, 50)">Indigo 50</div>
+                <div class="btn" data-clipboard-text="color($indigo, 100)">Indigo 100</div>
+                <div class="btn" data-clipboard-text="color($indigo, 200)">Indigo 200</div>
+                <div class="btn" data-clipboard-text="color($indigo, 300)">Indigo 300</div>
+                <div class="btn" data-clipboard-text="color($indigo, 400)">Indigo 400</div>
+                <div class="btn" data-clipboard-text="color($indigo, 500)">Indigo 500</div>
+                <div class="btn" data-clipboard-text="color($indigo, 600)">Indigo 600</div>
+                <div class="btn" data-clipboard-text="color($indigo, 700)">Indigo 700</div>
+                <div class="btn" data-clipboard-text="color($indigo, 800)">Indigo 800</div>
+                <div class="btn" data-clipboard-text="color($indigo, 900)">Indigo 900</div>
+                <div class="btn" data-clipboard-text="color($indigo, a100)">a100</div>
+                <div class="btn" data-clipboard-text="color($indigo, a200)">a200</div>
+                <div class="btn" data-clipboard-text="color($indigo, a400)">a400</div>
+                <div class="btn" data-clipboard-text="color($indigo, a700)">a700</div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3 blue">
+                <div class="btn" data-clipboard-text="color($blue, 400)">Blue 400</div>
+                <div class="btn" data-clipboard-text="color($blue, 50)">Blue 50</div>
+                <div class="btn" data-clipboard-text="color($blue, 100)">Blue 100</div>
+                <div class="btn" data-clipboard-text="color($blue, 200)">Blue 200</div>
+                <div class="btn" data-clipboard-text="color($blue, 300)">Blue 300</div>
+                <div class="btn" data-clipboard-text="color($blue, 400)">Blue 400</div>
+                <div class="btn" data-clipboard-text="color($blue, 500)">Blue 500</div>
+                <div class="btn" data-clipboard-text="color($blue, 600)">Blue 600</div>
+                <div class="btn" data-clipboard-text="color($blue, 700)">Blue 700</div>
+                <div class="btn" data-clipboard-text="color($blue, 800)">Blue 800</div>
+                <div class="btn" data-clipboard-text="color($blue, 900)">Blue 900</div>
+                <div class="btn" data-clipboard-text="color($blue, a100)">a100</div>
+                <div class="btn" data-clipboard-text="color($blue, a200)">a200</div>
+                <div class="btn" data-clipboard-text="color($blue, a400)">a400</div>
+                <div class="btn" data-clipboard-text="color($blue, a700)">a700</div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3 light-blue">
+                <div class="btn" data-clipboard-text="color($light-blue, 400)">Light Blue 400</div>
+                <div class="btn" data-clipboard-text="color($light-blue, 50)">Light Blue 50</div>
+                <div class="btn" data-clipboard-text="color($light-blue, 100)">Light Blue 100</div>
+                <div class="btn" data-clipboard-text="color($light-blue, 200)">Light Blue 200</div>
+                <div class="btn" data-clipboard-text="color($light-blue, 300)">Light Blue 300</div>
+                <div class="btn" data-clipboard-text="color($light-blue, 400)">Light Blue 400</div>
+                <div class="btn" data-clipboard-text="color($light-blue, 500)">Light Blue 500</div>
+                <div class="btn" data-clipboard-text="color($light-blue, 600)">Light Blue 600</div>
+                <div class="btn" data-clipboard-text="color($light-blue, 700)">Light Blue 700</div>
+                <div class="btn" data-clipboard-text="color($light-blue, 800)">Light Blue 800</div>
+                <div class="btn" data-clipboard-text="color($light-blue, 900)">Light Blue 900</div>
+                <div class="btn" data-clipboard-text="color($light-blue, a100)">a100</div>
+                <div class="btn" data-clipboard-text="color($light-blue, a200)">a200</div>
+                <div class="btn" data-clipboard-text="color($light-blue, a400)">a400</div>
+                <div class="btn" data-clipboard-text="color($light-blue, a700)">a700</div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3 cyan">
+                <div class="btn" data-clipboard-text="color($cyan, 400)">Cyan 400</div>
+                <div class="btn" data-clipboard-text="color($cyan, 50)">Cyan 50</div>
+                <div class="btn" data-clipboard-text="color($cyan, 100)">Cyan 100</div>
+                <div class="btn" data-clipboard-text="color($cyan, 200)">Cyan 200</div>
+                <div class="btn" data-clipboard-text="color($cyan, 300)">Cyan 300</div>
+                <div class="btn" data-clipboard-text="color($cyan, 400)">Cyan 400</div>
+                <div class="btn" data-clipboard-text="color($cyan, 500)">Cyan 500</div>
+                <div class="btn" data-clipboard-text="color($cyan, 600)">Cyan 600</div>
+                <div class="btn" data-clipboard-text="color($cyan, 700)">Cyan 700</div>
+                <div class="btn" data-clipboard-text="color($cyan, 800)">Cyan 800</div>
+                <div class="btn" data-clipboard-text="color($cyan, 900)">Cyan 900</div>
+                <div class="btn" data-clipboard-text="color($cyan, a100)">a100</div>
+                <div class="btn" data-clipboard-text="color($cyan, a200)">a200</div>
+                <div class="btn" data-clipboard-text="color($cyan, a400)">a400</div>
+                <div class="btn" data-clipboard-text="color($cyan, a700)">a700</div>
+            </div>
+        </div>
+        <!-- row2	 -->
+    </div>
+    <script>
+    var clipboard = new Clipboard('.btn');
+    clipboard.on('success', function(e) {
+        console.log(e);
+    });
+    clipboard.on('error', function(e) {
+        console.log(e);
+    });
+    </script>
+</body>
+
+</html>

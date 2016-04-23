@@ -1,0 +1,419 @@
+@import '_color-palette.scss';
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300);
+
+html, body {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 300;
+	text-align: center;
+}
+header {
+	margin-bottom:5%;
+}
+.row {
+	margin: 5% 0%;
+}
+.btn {
+  display: block;
+  border-radius: 0px;
+}
+.sass {
+	color: #c6538c;
+}
+.clipboard {
+	color: #1BC1A1;
+}
+
+.red{
+	& > .btn:nth-child(1) {
+		background: color($red, 500);
+	}
+	& > .btn:nth-child(2) {
+		background: color($red, 50);
+	}
+	& > .btn:nth-child(3) {
+		background: color($red, 100);
+	}
+	& > .btn:nth-child(4) {
+		background: color($red, 200);
+	}
+	& > .btn:nth-child(5) {
+		background: color($red, 300);
+	}
+	& > .btn:nth-child(6) {
+		background: color($red, 400);
+	}
+	& > .btn:nth-child(7) {
+		background: color($red, 500);
+	}
+	& > .btn:nth-child(8) {
+		background: color($red, 600);
+	}
+	& > .btn:nth-child(9) {
+		background: color($red, 700);
+	}
+	& > .btn:nth-child(10) {
+		background: color($red, 800);
+	}
+	& > .btn:nth-child(11) {
+		background: color($red, 900);
+	}
+	& > .btn:nth-child(12) {
+		background: color($red, a100);
+	}
+	& > .btn:nth-child(13) {
+		background: color($red, a200);
+	}
+	& > .btn:nth-child(14) {
+		background: color($red, a400);
+	}
+	& > .btn:nth-child(15) {
+		background: color($red, a700);
+	}
+
+
+}
+.pink{
+	& > .btn:nth-child(1) {
+		background: color($pink, 500);
+	}
+	& > .btn:nth-child(2) {
+		background: color($pink, 50);
+	}
+	& > .btn:nth-child(3) {
+		background: color($pink, 100);
+	}
+	& > .btn:nth-child(4) {
+		background: color($pink, 200);
+	}
+	& > .btn:nth-child(5) {
+		background: color($pink, 300);
+	}
+	& > .btn:nth-child(6) {
+		background: color($pink, 400);
+	}
+	& > .btn:nth-child(7) {
+		background: color($pink, 500);
+	}
+	& > .btn:nth-child(8) {
+		background: color($pink, 600);
+	}
+	& > .btn:nth-child(9) {
+		background: color($pink, 700);
+	}
+	& > .btn:nth-child(10) {
+		background: color($pink, 800);
+	}
+	& > .btn:nth-child(11) {
+		background: color($pink, 900);
+	}
+	& > .btn:nth-child(12) {
+		background: color($pink, a100);
+	}
+	& > .btn:nth-child(13) {
+		background: color($pink, a200);
+	}
+	& > .btn:nth-child(14) {
+		background: color($pink, a400);
+	}
+	& > .btn:nth-child(15) {
+		background: color($pink, a700);
+	}
+
+
+}
+.purple{
+	& > .btn:nth-child(1) {
+		background: color($purple, 500);
+	}
+	& > .btn:nth-child(2) {
+		background: color($purple, 50);
+	}
+	& > .btn:nth-child(3) {
+		background: color($purple, 100);
+	}
+	& > .btn:nth-child(4) {
+		background: color($purple, 200);
+	}
+	& > .btn:nth-child(5) {
+		background: color($purple, 300);
+	}
+	& > .btn:nth-child(6) {
+		background: color($purple, 400);
+	}
+	& > .btn:nth-child(7) {
+		background: color($purple, 500);
+	}
+	& > .btn:nth-child(8) {
+		background: color($purple, 600);
+	}
+	& > .btn:nth-child(9) {
+		background: color($purple, 700);
+	}
+	& > .btn:nth-child(10) {
+		background: color($purple, 800);
+	}
+	& > .btn:nth-child(11) {
+		background: color($purple, 900);
+	}
+	& > .btn:nth-child(12) {
+		background: color($purple, a100);
+	}
+	& > .btn:nth-child(13) {
+		background: color($purple, a200);
+	}
+	& > .btn:nth-child(14) {
+		background: color($purple, a400);
+	}
+	& > .btn:nth-child(15) {
+		background: color($purple, a700);
+	}
+
+
+}
+.deep-purple{
+	& > .btn:nth-child(1) {
+		background: color($deep-purple, 500);
+	}
+	& > .btn:nth-child(2) {
+		background: color($deep-purple, 50);
+	}
+	& > .btn:nth-child(3) {
+		background: color($deep-purple, 100);
+	}
+	& > .btn:nth-child(4) {
+		background: color($deep-purple, 200);
+	}
+	& > .btn:nth-child(5) {
+		background: color($deep-purple, 300);
+	}
+	& > .btn:nth-child(6) {
+		background: color($deep-purple, 400);
+	}
+	& > .btn:nth-child(7) {
+		background: color($deep-purple, 500);
+	}
+	& > .btn:nth-child(8) {
+		background: color($deep-purple, 600);
+	}
+	& > .btn:nth-child(9) {
+		background: color($deep-purple, 700);
+	}
+	& > .btn:nth-child(10) {
+		background: color($deep-purple, 800);
+	}
+	& > .btn:nth-child(11) {
+		background: color($deep-purple, 900);
+	}
+	& > .btn:nth-child(12) {
+		background: color($deep-purple, a100);
+	}
+	& > .btn:nth-child(13) {
+		background: color($deep-purple, a200);
+	}
+	& > .btn:nth-child(14) {
+		background: color($deep-purple, a400);
+	}
+	& > .btn:nth-child(15) {
+		background: color($deep-purple, a700);
+	}
+
+
+}
+.indigo{
+	& > .btn:nth-child(1) {
+		background: color($indigo, 500);
+	}
+	& > .btn:nth-child(2) {
+		background: color($indigo, 50);
+	}
+	& > .btn:nth-child(3) {
+		background: color($indigo, 100);
+	}
+	& > .btn:nth-child(4) {
+		background: color($indigo, 200);
+	}
+	& > .btn:nth-child(5) {
+		background: color($indigo, 300);
+	}
+	& > .btn:nth-child(6) {
+		background: color($indigo, 400);
+	}
+	& > .btn:nth-child(7) {
+		background: color($indigo, 500);
+	}
+	& > .btn:nth-child(8) {
+		background: color($indigo, 600);
+	}
+	& > .btn:nth-child(9) {
+		background: color($indigo, 700);
+	}
+	& > .btn:nth-child(10) {
+		background: color($indigo, 800);
+	}
+	& > .btn:nth-child(11) {
+		background: color($indigo, 900);
+	}
+	& > .btn:nth-child(12) {
+		background: color($indigo, a100);
+	}
+	& > .btn:nth-child(13) {
+		background: color($indigo, a200);
+	}
+	& > .btn:nth-child(14) {
+		background: color($indigo, a400);
+	}
+	& > .btn:nth-child(15) {
+		background: color($indigo, a700);
+	}
+
+
+}
+.blue{
+	& > .btn:nth-child(1) {
+		background: color($blue, 500);
+	}
+	& > .btn:nth-child(2) {
+		background: color($blue, 50);
+	}
+	& > .btn:nth-child(3) {
+		background: color($blue, 100);
+	}
+	& > .btn:nth-child(4) {
+		background: color($blue, 200);
+	}
+	& > .btn:nth-child(5) {
+		background: color($blue, 300);
+	}
+	& > .btn:nth-child(6) {
+		background: color($blue, 400);
+	}
+	& > .btn:nth-child(7) {
+		background: color($blue, 500);
+	}
+	& > .btn:nth-child(8) {
+		background: color($blue, 600);
+	}
+	& > .btn:nth-child(9) {
+		background: color($blue, 700);
+	}
+	& > .btn:nth-child(10) {
+		background: color($blue, 800);
+	}
+	& > .btn:nth-child(11) {
+		background: color($blue, 900);
+	}
+	& > .btn:nth-child(12) {
+		background: color($blue, a100);
+	}
+	& > .btn:nth-child(13) {
+		background: color($blue, a200);
+	}
+	& > .btn:nth-child(14) {
+		background: color($blue, a400);
+	}
+	& > .btn:nth-child(15) {
+		background: color($blue, a700);
+	}
+
+
+}
+.light-blue{
+	& > .btn:nth-child(1) {
+		background: color($light-blue, 500);
+	}
+	& > .btn:nth-child(2) {
+		background: color($light-blue, 50);
+	}
+	& > .btn:nth-child(3) {
+		background: color($light-blue, 100);
+	}
+	& > .btn:nth-child(4) {
+		background: color($light-blue, 200);
+	}
+	& > .btn:nth-child(5) {
+		background: color($light-blue, 300);
+	}
+	& > .btn:nth-child(6) {
+		background: color($light-blue, 400);
+	}
+	& > .btn:nth-child(7) {
+		background: color($light-blue, 500);
+	}
+	& > .btn:nth-child(8) {
+		background: color($light-blue, 600);
+	}
+	& > .btn:nth-child(9) {
+		background: color($light-blue, 700);
+	}
+	& > .btn:nth-child(10) {
+		background: color($light-blue, 800);
+	}
+	& > .btn:nth-child(11) {
+		background: color($light-blue, 900);
+	}
+	& > .btn:nth-child(12) {
+		background: color($light-blue, a100);
+	}
+	& > .btn:nth-child(13) {
+		background: color($light-blue, a200);
+	}
+	& > .btn:nth-child(14) {
+		background: color($light-blue, a400);
+	}
+	& > .btn:nth-child(15) {
+		background: color($light-blue, a700);
+	}
+
+
+}
+.cyan{
+	& > .btn:nth-child(1) {
+		background: color($cyan, 500);
+	}
+	& > .btn:nth-child(2) {
+		background: color($cyan, 50);
+	}
+	& > .btn:nth-child(3) {
+		background: color($cyan, 100);
+	}
+	& > .btn:nth-child(4) {
+		background: color($cyan, 200);
+	}
+	& > .btn:nth-child(5) {
+		background: color($cyan, 300);
+	}
+	& > .btn:nth-child(6) {
+		background: color($cyan, 400);
+	}
+	& > .btn:nth-child(7) {
+		background: color($cyan, 500);
+	}
+	& > .btn:nth-child(8) {
+		background: color($cyan, 600);
+	}
+	& > .btn:nth-child(9) {
+		background: color($cyan, 700);
+	}
+	& > .btn:nth-child(10) {
+		background: color($cyan, 800);
+	}
+	& > .btn:nth-child(11) {
+		background: color($cyan, 900);
+	}
+	& > .btn:nth-child(12) {
+		background: color($cyan, a100);
+	}
+	& > .btn:nth-child(13) {
+		background: color($cyan, a200);
+	}
+	& > .btn:nth-child(14) {
+		background: color($cyan, a400);
+	}
+	& > .btn:nth-child(15) {
+		background: color($cyan, a700);
+	}
+
+
+}
+
+
